@@ -1,0 +1,22 @@
+# build output and signing key (each user generates their own on first build)
+build/
+keystore/
+
+# per-TV records written while working on a device; they contain device details
+backup/
+backup_state.txt
+approved_changes.txt
+removed_thirdparty.txt
+rollback_readme.md
+
+# screenshots from a real TV can show account names, Wi-Fi names and photos you do not own
+screenshots/
+
+# your wallpaper photo: add your own with set_wallpaper.ps1 (not published)
+app/res/drawable-nodpi/wallpaper_photo.jpg
+
+*.apk
+*.log
+
+# a personal list of which apps one owner kept or removed
+unwanted_apps_candidates.md
