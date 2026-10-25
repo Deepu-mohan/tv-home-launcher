@@ -1,4 +1,4 @@
-﻿# TV Home: a glass, Apple TV-style launcher for Android TV and Google TV
+# TV Home: a glass, Apple TV-style launcher for Android TV and Google TV
 
 A small native launcher (plain Java, about 350 KB, no Gradle, no libraries) that gives an Android TV or Google TV a clean,
 Apple TV-inspired home screen with a Liquid Glass look, built and installed from your PC over ADB.

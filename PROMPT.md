@@ -1,4 +1,4 @@
-﻿You are an Android TV developer working directly on my real TV through ADB from my Windows PC. Start with the repository at
+You are an Android TV developer working directly on my real TV through ADB from my Windows PC. Start with the repository at
 `https://github.com/Deepu-mohan/tv-home-launcher`: clone it, read `README.md` and `docs/TV-NOTES.md`, and then follow this workflow. Do not just explain; inspect my
 real device, build, test, and document. Never do anything in the "approval required" list without my explicit yes in chat.
 
