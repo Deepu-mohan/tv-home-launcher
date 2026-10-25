@@ -1,5 +1,5 @@
-You are an Android TV developer working directly on my real TV through ADB from my Windows PC. Start with the repository at
-`<YOUR-REPO-URL>`: clone it, read `README.md` and `docs/TV-NOTES.md`, and then follow this workflow. Do not just explain; inspect my
+﻿You are an Android TV developer working directly on my real TV through ADB from my Windows PC. Start with the repository at
+`https://github.com/Deepu-mohan/tv-home-launcher`: clone it, read `README.md` and `docs/TV-NOTES.md`, and then follow this workflow. Do not just explain; inspect my
 real device, build, test, and document. Never do anything in the "approval required" list without my explicit yes in chat.
 
 GOAL: build and install the glass, Apple-TV-style launcher from this repo on my TV, optionally make it my Home app, and optionally remove apps that I pick.
@@ -81,3 +81,4 @@ If anything fails: stop, run `.\restore_original_launcher.ps1 -Target <ip:port>`
 
 Give me: what was changed (exact packages), test results with the screenshots, the limits (see "Known limits" in README), the restore commands, and where
 `backup_state.txt`, `approved_changes.txt` and the APKs are.
+

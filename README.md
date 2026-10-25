@@ -29,14 +29,14 @@ You need a Windows PC, an AI coding assistant with shell access (for example Cla
 2. Give your assistant this repository link and paste the prompt below. It will connect to your TV, inspect it, back up its state, build the launcher,
    test it, and ask you before each change.
 
-**Prompt (the same text is in [PROMPT.md](PROMPT.md); replace `<YOUR-REPO-URL>` with this repository's link):**
+**Prompt (the same text is in [PROMPT.md](PROMPT.md); it already points at this repository, so just paste it):**
 
 <details>
 <summary>Show the full prompt</summary>
 
 ```text
 You are an Android TV developer working directly on my real TV through ADB from my Windows PC. Start with the repository at
-`<YOUR-REPO-URL>`: clone it, read `README.md` and `docs/TV-NOTES.md`, and then follow this workflow. Do not just explain; inspect my
+`https://github.com/Deepu-mohan/tv-home-launcher`: clone it, read `README.md` and `docs/TV-NOTES.md`, and then follow this workflow. Do not just explain; inspect my
 real device, build, test, and document. Never do anything in the "approval required" list without my explicit yes in chat.
 
 GOAL: build and install the glass, Apple-TV-style launcher from this repo on my TV, optionally make it my Home app, and optionally remove apps that I pick.
@@ -128,8 +128,8 @@ Requirements: Windows with PowerShell 5.1, `adb`, the Android SDK (platform `and
 (Android Studio's bundled JDK works). Nothing else is downloaded.
 
 ```powershell
-git clone <YOUR-REPO-URL>
-cd <repo-folder>
+git clone https://github.com/Deepu-mohan/tv-home-launcher
+cd tv-home-launcher
 .\build.ps1                      # writes build\tvhome-test.apk and build\tvhome-home.apk
 
 adb pair <tv-ip>:<pairing-port>  # enter the 6-digit code shown on the TV
@@ -192,3 +192,6 @@ Nothing else leaves the TV. Screenshots, `backup_state.txt`, `approved_changes.t
 
 Inspired by [CleanYourTV](https://github.com/Gathin23/cleanyourtv), whose notes on the setup wizard and Home takeover on Google TV informed
 `make_default_home.ps1`. No code was copied. The glass and Control Centre styles are an original interpretation of Apple's design language; this project is not affiliated with Apple, Google or any TV maker.
+
+
+
