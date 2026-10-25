@@ -6,6 +6,20 @@ Apple TV-inspired home screen with a Liquid Glass look, built and installed from
 > **Designed and developed by Deepu Mohan.** MIT licensed. Tested on one TV only (see [Known limits](#known-limits)).
 > You use this at your own risk; every step is reversible and the AI prompt below asks you before each change.
 
+## Before and after
+
+Real screenshots from the test TV (Haier MatrixTV EE, Google TV on Android 14).
+
+| Before: the stock Google TV home | After: this launcher, page one |
+|---|---|
+| ![Stock Google TV home screen](docs/images/before-google-tv-home.png) | ![Glass launcher, page one](docs/images/after-home-page-one.png) |
+
+Page two of the new home, the app grid:
+
+![Glass launcher, page two](docs/images/after-home-page-two.png)
+
+The photo wallpaper and the weather city in the "after" images are the author's own choices; you pick yours in Options. Without a photo the launcher
+uses its drawn wallpapers.
 ## What you get
 
 - **Two-page home screen, like Apple TV:** page one has a tall see-through glass clock with AM/PM, the date, four glass keys
