@@ -24,7 +24,7 @@ Everything here was measured on one TV, a **Haier MatrixTV EE (HR9676EU)**: Goog
 | Thing | Effect |
 |---|---|
 | Wi-Fi networks saved by the setup wizard | Forgotten. Check first: `dumpsys wifi | grep cname=` (networks owned by `android.uid.system` are safe). |
-| Phone casting | May show "Untrusted device" after the Cast receiver restarts, because it takes its credentials from the wizard. It still worked after the change in our test, but we did not test a reboot. |
+| Phone casting | May show "Untrusted device" after the Cast receiver restarts, because it takes its credentials from the wizard. It still worked after the change in our test, and the owner reports that the TV also worked normally after a reboot. |
 | The remote's Settings button | Stops working: it makes the firmware open a panel inside the Google TV launcher. |
 | Google TV recommendations, profiles, Watch Next | Gone with the launcher. |
 | Factory reset | Re-enable the wizard first. Never reboot while `.RecoveryActivity` is in focus. |

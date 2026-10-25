@@ -175,7 +175,7 @@ Undo: `.\restore_original_launcher.ps1 -Target <tv-ip>:<port>`. More in [docs/RO
 ## Known limits
 
 - **Tested on one TV only:** Haier MatrixTV EE (HR9676EU), Google TV on Android 14, 32-bit ARM, 1.8 GB RAM. Other TVs may behave differently.
-- **Reboot was never tested** with the Home takeover. After a restart, check that Home still opens the launcher and re-enable the stock launcher if not.
+- **Reboot:** the owner restarted the TV after the Home takeover and reported that it came back and worked normally (reported by the owner, not logged by us). It is still one TV, so after a restart on yours, check that Home opens the launcher and re-enable the stock launcher if not.
 - With the stock launcher and the setup wizard disabled: the remote's **Settings** and **Netflix** buttons stop working (they are handled inside the TV software and
   by Google's launcher, and cannot be re-mapped without changing system files), saved Wi-Fi networks owned by the wizard are forgotten, and phone casting may need
   the wizard re-enabled.
